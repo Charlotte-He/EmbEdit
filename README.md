@@ -3,7 +3,7 @@
 MSE-based text-embedding editing for **Stable Diffusion v1.4** and **SDXL 1.0**.
 This repository contains editing and image-generation code, an original minimal CSV example, installation instructions and source provenance. Third-party experiment datasets, model weights and generated images are not distributed in this public release.
 
-Implementation accompanying **Minimal, Local, and Robust: Embedding-Only Edits for Implicit Bias in T2I Models**, by **Feng He, Chao Zhang, and Zhixue Zhao**, EMNLP 2025.
+
 
 [Paper](https://aclanthology.org/2025.emnlp-main.777/) · [PDF](https://aclanthology.org/2025.emnlp-main.777.pdf) · [Release scope](docs/RELEASE_SCOPE.md)
 
