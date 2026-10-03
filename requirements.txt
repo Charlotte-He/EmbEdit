@@ -1,0 +1,8 @@
+# Install a CUDA-compatible PyTorch build separately on GPU machines.
+torch>=2.2,<3
+diffusers>=0.30,<0.31
+transformers>=4.44,<4.45
+accelerate>=0.33,<0.35
+numpy>=1.24,<2
+safetensors>=0.4,<1
+Pillow>=10,<12

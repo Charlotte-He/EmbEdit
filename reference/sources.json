@@ -1,0 +1,38 @@
+[
+  {
+    "release_file": "reference/sd14_mse.py",
+    "source_relative_to_original_project": "changeemb/scripts/pipeline.py",
+    "source_file_sha256": "66ac5a5fb21b2ed330dc568131114985fa64fbfba6eebbe4a74d393d1ab2342b",
+    "functions": [
+      "change_emd"
+    ],
+    "extracted_functions_sha256": "7a559f9faf7538516e88beaa788bdcba180a492198e954423fa99287339925fd"
+  },
+  {
+    "release_file": "reference/sd14_joint_mse.py",
+    "source_relative_to_original_project": "changeemb/scripts/pipeline_multiple.py",
+    "source_file_sha256": "af3b514600073de3a0c2c6124efa27673efd72d17300b90c2fdd26b513e6ef68",
+    "functions": [
+      "multi_change_emd"
+    ],
+    "extracted_functions_sha256": "4df66b5c507de1e7b62ec05080dec3ad72c6442f281b6086068bb55715206337"
+  },
+  {
+    "release_file": "reference/sdxl_mse.py",
+    "source_relative_to_original_project": "changeemb-pipeline-xl/apply_emb_changing.py",
+    "source_file_sha256": "dabcedb49ef1b87efa3d956a609f7588a620c7a7f0533a9f47f2536d02d6ff46",
+    "functions": [
+      "change_emd"
+    ],
+    "extracted_functions_sha256": "11910b77162aee0d72efb5af684ccae2c2227b6dc0710a5fdd92104e025aeccb"
+  },
+  {
+    "release_file": "reference/sdxl_gender_mse.py",
+    "source_relative_to_original_project": "changeemb-pipeline-xl/apply_emb_changing_gender_mse.py",
+    "source_file_sha256": "3186e995f43a0dcaf0082c324dd5bfd525e50f8abb9e327d0d1f187b024d794c",
+    "functions": [
+      "change_emd"
+    ],
+    "extracted_functions_sha256": "47239fcfae5823f51353eaf5d15ce628b53d295a48fcb1a6116221ab65b1414f"
+  }
+]
