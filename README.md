@@ -106,30 +106,7 @@ sbatch scripts/slurm_edit.sh \
 Adapt the resource directives for your cluster. Run full models only inside a
 GPU allocation, never on an HPC login node.
 
-## Repository layout
 
-```text
-embedit/              shared MSE editing, input parsing, generation and CLI
-examples/             original minimal CSV example
-data/                 external data acquisition instructions
-reference/            original MSE function excerpts and source hashes
-scripts/              Slurm submission template
-tests/                small CPU tests; no pretrained models or datasets
-docs/                 data format, implementation changes, validation
-LICENSE               MIT license for this code
-THIRD_PARTY.md        dependencies, model and data attribution
-```
-
-The consolidated optimizer is checked against the original SD1.4, SDXL and
-SD1.4 joint MSE functions on a small synthetic encoder. Original gender-specific
-SDXL MSE code is retained as a documented reference, not silently substituted
-for the main method. See [implementation notes](docs/IMPLEMENTATION.md).
-
-## Tests
-
-```bash
-python -m unittest discover -s tests -v
-```
 
 ## License and attribution
 
